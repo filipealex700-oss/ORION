@@ -1,0 +1,64 @@
+# === Segredos (NUNCA commitar) ===
+PASSES.txt
+.env
+config.json
+*.key
+*.pem
+
+# === Ambientes Python ===
+venv/
+venv*/
+.venv/
+
+# === Modelos e binários grandes (regeneráveis via fine_tune_whisper.py) ===
+modelos/*
+!modelos/router_nn.pkl
+whisper-portuguese-finetuned/
+ct2_build/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# === Datasets e corpora ===
+common-voice-*.tar.gz
+cv-corpus*/
+datasets/
+DataSET/
+*.flac
+*.mp3
+*.wav
+*.tar.gz
+*.zip
+
+# === Dados pessoais / utilizador ===
+Vault/
+orion_core/*
+!orion_core/LEIA-ME.md
+projetos/
+pdfs para projetos/
+*.db
+*.db-journal
+*.sqlite*
+*.log
+output.mp3
+
+# === Build e cache ===
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+*.egg-info/
+rust_modules/target/
+rustup-init.exe
+*.bak
+*_backup.py
+Whisper_Service_original_backup.py
+
+# === Temporários ===
+temp_*
+*.tmp
+thumbs.db
+.DS_Store

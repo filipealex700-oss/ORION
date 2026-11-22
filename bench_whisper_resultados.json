@@ -1,0 +1,506 @@
+{
+ "antigo": [
+  {
+   "ref": "Dois Lajeados",
+   "hyp": "2 lageados",
+   "lat": 1.1252617835998535
+  },
+  {
+   "ref": "Os pedestres e um ciclista passam tranquilamente por um prédio moderno.",
+   "hyp": "os pedestres e um ciclista passam tranquilamente por um prédio moderno",
+   "lat": 0.9185681343078613
+  },
+  {
+   "ref": "Por que você me pergunta?",
+   "hyp": "por que elas sempre perguntam",
+   "lat": 0.7352616786956787
+  },
+  {
+   "ref": "Cadillac produz carros de luxo.",
+   "hyp": "Cadilac produz caros de o luxo.",
+   "lat": 0.8174295425415039
+  },
+  {
+   "ref": "Coordena e supervisiona a elaboração do Manual Organizacional do Departamento.",
+   "hyp": "coordena e supervisurona a elaboração do manual organizacional do departamento",
+   "lat": 1.0141949653625488
+  },
+  {
+   "ref": "Eu acabei de chegar para me aquecer.",
+   "hyp": "eu acabei de chegar para mim aqui se",
+   "lat": 1.2392563819885254
+  },
+  {
+   "ref": "Eu não vi a bagagem para estes dois dias.",
+   "hyp": "Eu não vi a bagagem para estes dois dias",
+   "lat": 1.1361143589019775
+  },
+  {
+   "ref": "Sua mente estava cheia de pensamentos.",
+   "hyp": "Sua mente estava a cheia de pensamentos",
+   "lat": 0.8864779472351074
+  },
+  {
+   "ref": "Diversification envolve a diversificação de investimentos.",
+   "hyp": "diversification envolve a diversificação de investimentos",
+   "lat": 0.939375638961792
+  },
+  {
+   "ref": "Por que eu deveria estar em perigo?",
+   "hyp": "porque eu deveria estar devolido",
+   "lat": 1.0173354148864746
+  },
+  {
+   "ref": "Os candidatos, juntamente com o aplicativo e o currículo, não acompanharão nenhuma documentação.",
+   "hyp": "os candidatos juntamente com o aplacativo e o crícolo não acampanharão nenhuma documentação",
+   "lat": 1.159837007522583
+  },
+  {
+   "ref": "Antônia Pereira Leoncio",
+   "hyp": "António para a iralíoncio",
+   "lat": 0.8601913452148438
+  },
+  {
+   "ref": "Consequentemente, o regime de competência acima mencionado tem um caráter fortemente assimétrico.",
+   "hyp": "consequentemente o regime de competência assino amecionado tem um caráter fortemente acimétrico",
+   "lat": 1.3346786499023438
+  },
+  {
+   "ref": "Espero que eles não viajem com este tempo.",
+   "hyp": "Espero que eles não viagem com este tempo",
+   "lat": 0.859128475189209
+  },
+  {
+   "ref": "A história da humanidade é traçada pela luta de classes, escravidão, feudalismo, capitalismo, socialismo",
+   "hyp": "a história da humanidade é traçada pelas lutas de classe a escravidão feudalismo capitalismo socialismo",
+   "lat": 1.1562552452087402
+  },
+  {
+   "ref": "Desculpe, não consigo me lembrar disso.",
+   "hyp": "desculpe não consigo me lembrar disso",
+   "lat": 0.7839431762695312
+  },
+  {
+   "ref": "Nenhum retorno perdido é perdido.",
+   "hyp": "nenhum retorno perdido e perdido",
+   "lat": 0.8489840030670166
+  },
+  {
+   "ref": "Capivari do Sul",
+   "hyp": "Capivare do sul",
+   "lat": 1.0370733737945557
+  },
+  {
+   "ref": "Convolutional Neural Networks são ótimos para trabalhar com imagens.",
+   "hyp": "Convolution não narrow net works são ótimos para trabalhar com imagens",
+   "lat": 1.1373686790466309
+  },
+  {
+   "ref": "Mas então ele lembrou que não ia ter que pagar nada.",
+   "hyp": "Mas então, ele clima e bruque não ia ter que pagar ganhado.",
+   "lat": 5.219773054122925
+  },
+  {
+   "ref": "Não pode dar ao seu filho algo melhor",
+   "hyp": "Não pode dar ela o seu filho algo melhor",
+   "lat": 0.780371904373169
+  },
+  {
+   "ref": "Ibuprofeno, levotiroxina",
+   "hyp": "e buprofeno levou de irocina",
+   "lat": 1.036860704421997
+  },
+  {
+   "ref": "Criacionismo iorubá",
+   "hyp": "criaçãoismo e orubar",
+   "lat": 1.2897350788116455
+  },
+  {
+   "ref": "Ela foi até a loja e teve que comprar tudo agora.",
+   "hyp": "ela foi até loja e teve que comprar tudo agora",
+   "lat": 0.9849715232849121
+  },
+  {
+   "ref": "Um amigo em perigo é um verdadeiro amigo.",
+   "hyp": "O amigo impedigo é um verdadeiro amigo",
+   "lat": 0.8570961952209473
+  },
+  {
+   "ref": "Não estabeleça um regime de visitas ao pai.",
+   "hyp": "Não estabeleço uma regime de visitas ao pai",
+   "lat": 0.8467614650726318
+  },
+  {
+   "ref": "Como isso afeta você no dia a dia?",
+   "hyp": "Como isso afeta voce no dia a dia",
+   "lat": 0.9187819957733154
+  },
+  {
+   "ref": "Um agricultor esperto dedica seu melhor grão para semear.",
+   "hyp": "um agricultores perto da educa sou melhor do grão para a semer",
+   "lat": 1.0265204906463623
+  },
+  {
+   "ref": "Ativar o som",
+   "hyp": "Ativar o som.",
+   "lat": 1.0226843357086182
+  },
+  {
+   "ref": "A outra opção que estamos propondo é mudar a estrutura: realocação.",
+   "hyp": "a outra opção que estamos proponde mudar a estrutura re-alocação",
+   "lat": 0.9086220264434814
+  },
+  {
+   "ref": "Empresa Estadual de Viação",
+   "hyp": "empris está a dor de aviação",
+   "lat": 0.9538693428039551
+  },
+  {
+   "ref": "Agora, qual é a história?",
+   "hyp": "E agora, qual é a história?",
+   "lat": 0.8675253391265869
+  },
+  {
+   "ref": "tão inconsciente como todo instinto",
+   "hyp": "tão inconsciente como todo instinto",
+   "lat": 0.9237732887268066
+  },
+  {
+   "ref": "Cerca de vinte mil",
+   "hyp": "Cerca de 20.000",
+   "lat": 0.8311517238616943
+  },
+  {
+   "ref": "Um grupo de pessoas que apreciam a dança em um quarto.",
+   "hyp": "um grupo de pessoas que apareciam a dança em um quarto",
+   "lat": 0.8902766704559326
+  },
+  {
+   "ref": "Eu não me importo com o que você cobra!",
+   "hyp": "Eu não me importo com o que você cobra",
+   "lat": 0.7662084102630615
+  },
+  {
+   "ref": "Enviar minha lista de compras para Marlene",
+   "hyp": "e vierme a início de compras para marlene",
+   "lat": 0.8457694053649902
+  },
+  {
+   "ref": "todo despertar do pensamento rebelde do proletariado",
+   "hyp": "todo despertado o pensamento rebelde do proletariado",
+   "lat": 0.8643217086791992
+  },
+  {
+   "ref": "A avó fez arroz quase tudo: coelho, frango, salsichas, frango, etc.",
+   "hyp": "a vofes arroz quase tudo coelho frango salsichas frango etc",
+   "lat": 1.066938877105713
+  },
+  {
+   "ref": "Boletim diário, mensal, semanal, quinzenal, bianual, quinquenal",
+   "hyp": "oletim diário mensal semanau quinhentenau bianuau quinquenau",
+   "lat": 1.0280654430389404
+  },
+  {
+   "ref": "É bom te ver.",
+   "hyp": "e eu won't fear",
+   "lat": 0.754920482635498
+  },
+  {
+   "ref": "Um homem surfa uma grande onda em uma bela paisagem oceânica.",
+   "hyp": "um homem surfa uma grande onda em uma bella apasagem océanica",
+   "lat": 0.9691548347473145
+  },
+  {
+   "ref": "Um motociclista corre em volta de uma pista.",
+   "hyp": "um motor ciclista corre em volta de uma pista",
+   "lat": 0.8261535167694092
+  },
+  {
+   "ref": "Você quer me deixar ir?",
+   "hyp": "Você quer me deixar ir?",
+   "lat": 0.8675048351287842
+  },
+  {
+   "ref": "O animal escapou da armadilha.",
+   "hyp": "o animal escapou de amadellia",
+   "lat": 0.799206018447876
+  },
+  {
+   "ref": "Christian Antônio Pinedo Larrea",
+   "hyp": "Christian torne o pinedo la rea",
+   "lat": 0.7674517631530762
+  },
+  {
+   "ref": "Muitíssimo obrigado pelo presente, mas não precisava se incomodar com isso.",
+   "hyp": "Muitíssimo obrigado pelo presente mas não precisava se incomodar com isso",
+   "lat": 0.8858873844146729
+  },
+  {
+   "ref": "a esposa recebeu a noticia de uma forma verdadeiramente surpreendente",
+   "hyp": "a esposa recebeu a notícia de uma forma verdadeiramente surpreendente",
+   "lat": 0.9068303108215332
+  },
+  {
+   "ref": "Possui mídia de impressão, analisando a compatibilidade com o produto gráfico e outros materiais.",
+   "hyp": "possuem medias de impressão analisando a compatibilidade com o produto gráfico e outros materiais",
+   "lat": 1.3154792785644531
+  },
+  {
+   "ref": "Não há acrônimo para um número binário.",
+   "hyp": "não há clonimo para um número final",
+   "lat": 0.9660978317260742
+  }
+ ],
+ "novo": [
+  {
+   "ref": "Dois Lajeados",
+   "hyp": "Dois lageados.",
+   "lat": 2.753890037536621
+  },
+  {
+   "ref": "Os pedestres e um ciclista passam tranquilamente por um prédio moderno.",
+   "hyp": "Os pedestres de um ciclista passam tranquilamente por um prédio moderno.",
+   "lat": 3.9588730335235596
+  },
+  {
+   "ref": "Por que você me pergunta?",
+   "hyp": "Por que você me perguntar?",
+   "lat": 2.9225642681121826
+  },
+  {
+   "ref": "Cadillac produz carros de luxo.",
+   "hyp": "Cadê lá que produz carros do luxo?",
+   "lat": 2.8103086948394775
+  },
+  {
+   "ref": "Coordena e supervisiona a elaboração do Manual Organizacional do Departamento.",
+   "hyp": "coordena e supervisiona a elaboração do Manual Organizacional do Departamento.",
+   "lat": 3.013636827468872
+  },
+  {
+   "ref": "Eu acabei de chegar para me aquecer.",
+   "hyp": "Eu acabei de chegar para a minha que ser.",
+   "lat": 2.4739770889282227
+  },
+  {
+   "ref": "Eu não vi a bagagem para estes dois dias.",
+   "hyp": "Eu não vi a bagagem para estes dois dias.",
+   "lat": 2.693370819091797
+  },
+  {
+   "ref": "Sua mente estava cheia de pensamentos.",
+   "hyp": "Sua mente estava cheia de pensamentos.",
+   "lat": 2.4376795291900635
+  },
+  {
+   "ref": "Diversification envolve a diversificação de investimentos.",
+   "hyp": "Diversification envolve a diversificação de investimentos.",
+   "lat": 2.8362877368927
+  },
+  {
+   "ref": "Por que eu deveria estar em perigo?",
+   "hyp": "Porque eu deveria estar em perigo.",
+   "lat": 2.5330963134765625
+  },
+  {
+   "ref": "Os candidatos, juntamente com o aplicativo e o currículo, não acompanharão nenhuma documentação.",
+   "hyp": "Os candidatos, juntamente com o aplicativo e o curículo, não acompanharão nenhuma documentação.",
+   "lat": 3.435547351837158
+  },
+  {
+   "ref": "Antônia Pereira Leoncio",
+   "hyp": "António Pereira Lyonso",
+   "lat": 3.2919399738311768
+  },
+  {
+   "ref": "Consequentemente, o regime de competência acima mencionado tem um caráter fortemente assimétrico.",
+   "hyp": "Consequentemente, o regime de competência assina meu sinal tem um caráter fortemente assimétrico.",
+   "lat": 4.6975555419921875
+  },
+  {
+   "ref": "Espero que eles não viajem com este tempo.",
+   "hyp": "Espero que eles não viagem com esse tempo.",
+   "lat": 2.564958095550537
+  },
+  {
+   "ref": "A história da humanidade é traçada pela luta de classes, escravidão, feudalismo, capitalismo, socialismo",
+   "hyp": "A história da humanidade é traçada pelas lutas de classe. A escravidão, feudalismo, capitalismo, socialismo.",
+   "lat": 4.2707154750823975
+  },
+  {
+   "ref": "Desculpe, não consigo me lembrar disso.",
+   "hyp": "Desculpe, não consigo me lembrar disso.",
+   "lat": 2.52199649810791
+  },
+  {
+   "ref": "Nenhum retorno perdido é perdido.",
+   "hyp": "Nenhum retorno perdido é perdido.",
+   "lat": 2.574409008026123
+  },
+  {
+   "ref": "Capivari do Sul",
+   "hyp": "Capi varido sul.",
+   "lat": 2.43511700630188
+  },
+  {
+   "ref": "Convolutional Neural Networks são ótimos para trabalhar com imagens.",
+   "hyp": "Com Volusional Narrow Networks são ótimos para trabalhar com imagens.",
+   "lat": 2.8589229583740234
+  },
+  {
+   "ref": "Mas então ele lembrou que não ia ter que pagar nada.",
+   "hyp": "Você então, ele tem que pagar nada?",
+   "lat": 2.457873582839966
+  },
+  {
+   "ref": "Não pode dar ao seu filho algo melhor",
+   "hyp": "Não pode dar ao seu filho algo melhor.",
+   "lat": 2.4750819206237793
+  },
+  {
+   "ref": "Ibuprofeno, levotiroxina",
+   "hyp": "Ibuprofenolivotiroxina",
+   "lat": 2.9098405838012695
+  },
+  {
+   "ref": "Criacionismo iorubá",
+   "hyp": "Criacionismo e Urbá",
+   "lat": 2.4890739917755127
+  },
+  {
+   "ref": "Ela foi até a loja e teve que comprar tudo agora.",
+   "hyp": "Ela foi até a loja e teve que comprar tudo agora.",
+   "lat": 2.995157241821289
+  },
+  {
+   "ref": "Um amigo em perigo é um verdadeiro amigo.",
+   "hyp": "Um amigo em perigo é um verdadeiro amigo.",
+   "lat": 2.5869460105895996
+  },
+  {
+   "ref": "Não estabeleça um regime de visitas ao pai.",
+   "hyp": "Não estabeleça um regime de visitas ao pai.",
+   "lat": 2.678741216659546
+  },
+  {
+   "ref": "Como isso afeta você no dia a dia?",
+   "hyp": "Como isso afeta você no dia a dia?",
+   "lat": 2.509019136428833
+  },
+  {
+   "ref": "Um agricultor esperto dedica seu melhor grão para semear.",
+   "hyp": "Um agricultor esperto dedica seu melhor grão para a semia ar.",
+   "lat": 3.014498710632324
+  },
+  {
+   "ref": "Ativar o som",
+   "hyp": "Ativar o som.",
+   "lat": 2.1946442127227783
+  },
+  {
+   "ref": "A outra opção que estamos propondo é mudar a estrutura: realocação.",
+   "hyp": "A outra opção que estamos propondo é mudar a estrutura. Realocação.",
+   "lat": 3.2574563026428223
+  },
+  {
+   "ref": "Empresa Estadual de Viação",
+   "hyp": "Empresa Estadora de Aviação.",
+   "lat": 2.7726287841796875
+  },
+  {
+   "ref": "Agora, qual é a história?",
+   "hyp": "Agora, qual é a história?",
+   "lat": 2.4724678993225098
+  },
+  {
+   "ref": "tão inconsciente como todo instinto",
+   "hyp": "Tão inconsciente como todo o instinto.",
+   "lat": 3.0161118507385254
+  },
+  {
+   "ref": "Cerca de vinte mil",
+   "hyp": "cerca de 20 mil.",
+   "lat": 2.288132667541504
+  },
+  {
+   "ref": "Um grupo de pessoas que apreciam a dança em um quarto.",
+   "hyp": "Um grupo de pessoas que apreciam a dança em um quarto.",
+   "lat": 3.0240118503570557
+  },
+  {
+   "ref": "Eu não me importo com o que você cobra!",
+   "hyp": "Eu não me importo com o que você cobra.",
+   "lat": 2.6163456439971924
+  },
+  {
+   "ref": "Enviar minha lista de compras para Marlene",
+   "hyp": "Enviar minha lista de compras para a Marlene.",
+   "lat": 2.710423469543457
+  },
+  {
+   "ref": "todo despertar do pensamento rebelde do proletariado",
+   "hyp": "Todo despertado, pensamento rebelde do proletariado.",
+   "lat": 3.0632989406585693
+  },
+  {
+   "ref": "A avó fez arroz quase tudo: coelho, frango, salsichas, frango, etc.",
+   "hyp": "A avó fez arroz quase tudo, coelho, frango, salsichas, frango etc.",
+   "lat": 3.5197088718414307
+  },
+  {
+   "ref": "Boletim diário, mensal, semanal, quinzenal, bianual, quinquenal",
+   "hyp": "Boletim Diário, Mensal, Semanal, Quinzenal, Bienual, Quinquenal",
+   "lat": 3.416365146636963
+  },
+  {
+   "ref": "É bom te ver.",
+   "hyp": "É bom de ferro.",
+   "lat": 2.26584529876709
+  },
+  {
+   "ref": "Um homem surfa uma grande onda em uma bela paisagem oceânica.",
+   "hyp": "Um homem surfa uma grande onda em uma bela paisagem oceânica.",
+   "lat": 2.958176612854004
+  },
+  {
+   "ref": "Um motociclista corre em volta de uma pista.",
+   "hyp": "Um motociclista corre em volta de uma pista.",
+   "lat": 2.714564085006714
+  },
+  {
+   "ref": "Você quer me deixar ir?",
+   "hyp": "Você quer me deixar ir?",
+   "lat": 2.157754421234131
+  },
+  {
+   "ref": "O animal escapou da armadilha.",
+   "hyp": "Vão em malas capou de armadilha.",
+   "lat": 2.699251413345337
+  },
+  {
+   "ref": "Christian Antônio Pinedo Larrea",
+   "hyp": "Cristian Antônio Pinedo Larrea",
+   "lat": 2.421393871307373
+  },
+  {
+   "ref": "Muitíssimo obrigado pelo presente, mas não precisava se incomodar com isso.",
+   "hyp": "Muito obrigado pelo presente, mas não precisava-se incomodar com isso.",
+   "lat": 2.996934175491333
+  },
+  {
+   "ref": "a esposa recebeu a noticia de uma forma verdadeiramente surpreendente",
+   "hyp": "A esposa recebeu a notícia de uma forma verdadeiramente surpreendente.",
+   "lat": 3.1969878673553467
+  },
+  {
+   "ref": "Possui mídia de impressão, analisando a compatibilidade com o produto gráfico e outros materiais.",
+   "hyp": "Posso em mídias de impressão analisando a compatibilidade com o produto gráfico e outros materiais.",
+   "lat": 3.6578023433685303
+  },
+  {
+   "ref": "Não há acrônimo para um número binário.",
+   "hyp": "Não há crônimo para um número binário.",
+   "lat": 2.6223134994506836
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+  "gtx1660s": {
+    "descricao": "Ryzen 5 5600X, 32 GB RAM, GTX 1660 Super (6 GB VRAM)",
+    "config": {
+      "modelo_llm": "llama3.1:8b",
+      "modelo_rapido": "",
+      "modelo_codigo": "qwen2.5-coder:7b",
+      "whisper_modelo": "medium",
+      "whisper_device": "cpu",
+      "whisper_threads": 6,
+      "whisper_beam": 5,
+      "contexto": 6144,
+      "keep_alive": "30m"
+    }
+  },
+  "leve": {
+    "descricao": "PC modesto (8 GB de RAM, sem placa gráfica dedicada)",
+    "config": {
+      "modelo_llm": "llama3.2:3b",
+      "modelo_rapido": "",
+      "modelo_codigo": "qwen2.5-coder:1.5b",
+      "whisper_modelo": "base",
+      "whisper_device": "cpu",
+      "whisper_beam": 3
+    }
+  },
+  "equilibrado": {
+    "descricao": "16 GB de RAM, sem placa gráfica dedicada",
+    "config": {
+      "modelo_llm": "llama3.1:8b",
+      "modelo_rapido": "llama3.2:3b",
+      "modelo_codigo": "qwen2.5-coder:7b",
+      "whisper_modelo": "small",
+      "whisper_device": "cpu",
+      "whisper_beam": 5
+    }
+  },
+  "potente": {
+    "descricao": "Placa Nvidia com 12 GB de VRAM ou mais (precisa de CUDA instalado)",
+    "config": {
+      "modelo_llm": "qwen2.5:14b",
+      "modelo_rapido": "llama3.1:8b",
+      "modelo_codigo": "qwen2.5-coder:14b",
+      "whisper_modelo": "large-v3-turbo",
+      "whisper_device": "cuda",
+      "whisper_beam": 5
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "nome": "ORION",
+  "tratamento": "senhor",
+  "wake_word": "orion",
+  "wake_variantes": [
+    "orion",
+    "oriom",
+    "orion",
+    "orion",
+    "orão",
+    "orio",
+    "iom",
+    "orionn",
+    "Oreo"
+  ],
+  "janela_conversa_seg": 15,
+  "frases_sair": [
+    "desliga-te",
+    "desliga te",
+    "encerrar orion",
+    "encerra o orion",
+    "adeus orion"
+  ],
+  "modelo_llm": "qwen2.5:3b",
+  "modelo_codigo": "qwen2.5:3b",
+  "modelo_embeddings": "nomic-embed-text",
+  "whisper_modelo": "whisper-portuguese-finetuned",
+  "whisper_device": "cuda",
+  "sensibilidade_microfone": 3.0,
+  "voz_nome": "",
+  "voz_velocidade": 185,
+  "voz_provider": "edge",
+  "edge_tts": {
+    "voice": "pt-PT-RaquelNeural",
+    "rate": "+0%"
+  },
+  "programas": {
+    "chrome": "start chrome",
+    "navegador": "start chrome",
+    "edge": "start msedge",
+    "vscode": "code",
+    "spotify": "start spotify:",
+    "calculadora": "calc",
+    "bloco de notas": "notepad",
+    "explorador": "explorer",
+    "discord": "start discord:",
+    "steam": "start steam:"
+  },
+  "processos": {
+    "chrome": "chrome.exe",
+    "navegador": "chrome.exe",
+    "edge": "msedge.exe",
+    "vscode": "Code.exe",
+    "spotify": "Spotify.exe",
+    "discord": "Discord.exe",
+    "steam": "steam.exe"
+  },
+  "modos": {
+    "estudo": {
+      "fechar": [
+        "steam",
+        "discord"
+      ],
+      "abrir": [
+        "vscode"
+      ],
+      "urls": [],
+      "ha": [
+        {
+          "dispositivo": "luz quarto",
+          "acao": "ligar",
+          "brilho": 80
+        }
+      ],
+      "fala": "Modo de estudo ativado. Bom trabalho."
+    },
+    "cinema": {
+      "fechar": [],
+      "abrir": [],
+      "urls": [],
+      "ha": [
+        {
+          "dispositivo": "luz quarto",
+          "acao": "desligar"
+        }
+      ],
+      "fala": "Modo cinema ativado. Boa sessão."
+    },
+    "jogo": {
+      "fechar": [],
+      "abrir": [
+        "steam",
+        "discord"
+      ],
+      "urls": [],
+      "ha": [],
+      "fala": "Modo de jogo ativado."
+    }
+  },
+  "home_assistant": {
+    "ativo": false,
+    "url": "http://homeassistant.local:8123",
+    "token": "COLA_AQUI_O_TOKEN_DE_LONGA_DURACAO",
+    "entidades": {
+      "luz quarto": "light.quarto",
+      "tomada secretaria": "switch.tomada_secretaria"
+    },
+    "cenas": {
+      "cinema": "scene.cinema"
+    }
+  },
+  "genero_padrao": "feminino",
+  "whisper_beam": 2,
+  "silencio_fim_seg": 0.6,
+  "confianca_minima": 0.5,
+  "aprendizagem_intervalo_min": 60,
+  "vozes": {
+    "feminino": [
+      "helia",
+      "maria",
+      "raquel",
+      "francisca"
+    ],
+    "masculino": [
+      "daniel",
+      "duarte",
+      "antonio",
+      "jorge"
+    ]
+  },
+  "modelo_rapido": "phi3:mini",
+  "roteamento": true,
+  "skills_min_score": 0.65,
+  "whisper_threads": 8,
+  "contexto": 512,
+  "keep_alive": "30m",
+  "web": {
+    "tema": {
+      "primario": "#27313d",
+      "secundario": "#f7f8fa",
+      "fundo": "#ffffff",
+      "texto": "#20242b",
+      "texto_secundario": "#9299a3",
+      "borda": "#e9ebef",
+      "sucesso": "#43a779",
+      "erro": "#d36a6a",
+      "aviso": "#d3a34b"
+    },
+    "host": "127.0.0.1",
+    "porta": 8765
+  },
+  "langflow": {
+    "url": "http://localhost:7860",
+    "flow_id": "88a874d9-2a2d-4446-ac15-949a3cf6bcf1"
+  },
+  "obsidian": {
+    "ativo": true,
+    "vault_path": "C:\\caminho\\para\\o\\teu\\cofre\\Obsidian"
+  },
+  "vram_gb": 6,
+  "rotas": {
+    "rapido": {
+      "modelo": ""
+    },
+    "codigo": {
+      "modelo": ""
+    },
+    "seguranca": {
+      "modelo": ""
+    },
+    "financas": {
+      "modelo": ""
+    }
+  },
+  "juiz": {
+    "ativo": false,
+    "rondas": 1,
+    "pontuacao_minima": 7,
+    "modelo_critico": ""
+  },
+  "seguranca": {
+    "watchdog": true,
+    "intervalo_seg": 120,
+    "limiar_alteracoes": 50,
+    "pastas_protegidas": [
+      "C:\\caminho\\para\\as\\tuas\\pastas\\importantes"
+    ],
+    "sandbox": "auto",
+    "imagem_docker": "python:3.11-slim",
+    "pasta_backups": "",
+    "backups_manter": 5
+  }
+}

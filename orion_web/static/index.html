@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030712">
+  <title>ORION · JARVIS Interface</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Share+Tech+Mono&family=Rajdhani:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="/static/style.css?v=4">
+</head>
+<body data-state="pronto">
+
+  <!-- ECRÃ DE LOGIN -->
+  <div id="login" class="login-screen">
+    <form id="login-form" class="login-card">
+      <p class="eyebrow">SISTEMA ORION // AUTENTICAÇÃO</p>
+      <h1>ACESSO RESTRITO</h1>
+      <p class="eyebrow" style="margin-top: 10px;">INTRODUZA O TOKEN DE ACESSO</p>
+      <input id="token" type="password" placeholder="TOKEN DE SEGURANÇA" autocomplete="current-password">
+      <button class="btn-hud" type="submit">INICIAR LIGAÇÃO</button>
+      <p id="login-error" class="error"></p>
+    </form>
+  </div>
+
+  <!-- INTERFACE PRINCIPAL JARVIS -->
+  <div id="app" class="app-shell hidden">
+    
+    <!-- CONTROLOGOS DE TOPO -->
+    <div class="top-bar-controls">
+      <button id="mute-btn" class="btn-icon" title="Mutar/Desmutar microfone">🎤</button>
+      <button id="audio-device-btn" class="btn-icon" title="Escolher dispositivo de áudio">🎧</button>
+    </div>
+
+    <!-- MODAL DE ESCOLHA DE DISPOSITIVO DE ÁUDIO -->
+    <div id="audio-device-modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>DISPOSITIVO DE ÁUDIO</h3>
+          <button id="close-audio-modal" class="btn-close">×</button>
+        </div>
+        <div class="modal-body">
+          <p class="eyebrow">SELECIONA O MICROFONE</p>
+          <select id="audio-device-select" class="select-input">
+            <option value="">A carregar dispositivos...</option>
+          </select>
+          <button id="save-audio-device" class="btn-hud" style="margin-top: 15px; width: 100%;">GUARDAR</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAINEL ESQUERDO: TERMINAL E ABA DE ATIVIDADE -->
+    <aside class="hud-panel">
+      <div class="panel-header">
+        <div class="tab-selectors">
+          <button id="tab-chat-btn" class="tab-btn active">// CONVERSA</button>
+          <button id="tab-activity-btn" class="tab-btn">// ATIVIDADE <span id="error-badge" class="badge-error hidden">0</span></button>
+        </div>
+      </div>
+
+      <!-- VISTA: CHAT -->
+      <div id="tab-chat" class="tab-content">
+        <div id="messages" class="messages" aria-live="polite"></div>
+        <div class="composer-wrap">
+          <form id="chat-form" class="composer">
+            <textarea id="message" rows="1" placeholder="INSTRUÇÃO PARA O ORION..." required></textarea>
+            <button id="send" class="btn-icon" type="submit">→</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- VISTA: REGISTO DE ATIVIDADE E ERROS -->
+      <div id="tab-activity" class="tab-content hidden">
+        <div class="activity-filters">
+          <button class="filter-btn active" data-filter="all">TODOS</button>
+          <button class="filter-btn" data-filter="erro">ERROS</button>
+          <button class="filter-btn" data-filter="sistema">SISTEMA</button>
+        </div>
+        <div id="full-activity-log" class="full-log-list"></div>
+      </div>
+    </aside>
+
+    <!-- CENTRO: ARC REACTOR CENTRAL E AUDIO WAVEFORM -->
+    <main class="center-hud">
+      <div class="orion-logo">ORION</div>
+      <div class="arc-reactor">
+        <div class="ring ring-outer"></div>
+        <div class="ring ring-mid"></div>
+        <div class="ring ring-inner"></div>
+        <div class="core"></div>
+      </div>
+
+      <div class="status-badge" id="state-label">ORION PRONTO</div>
+
+      <div class="waveform" id="waveform">
+        <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+        <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+        <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+      </div>
+    </main>
+
+    <!-- PAINEL DIREITO: DIAGNÓSTICO E TELEMETRIA -->
+    <aside class="hud-panel">
+      <div class="panel-header">
+        <span class="panel-title">// DIAGNÓSTICO DO SISTEMA</span>
+        <span class="eyebrow">TELEMETRIA</span>
+      </div>
+
+      <div class="info-group">
+        <div class="info-row"><span>SISTEMA:</span><strong>ORION AI v3.0</strong></div>
+        <div class="info-row"><span>ESTADO:</span><strong id="side-state">PRONTO</strong></div>
+        <div class="info-row"><span>LIGAÇÃO:</span><strong id="side-connection">—</strong></div>
+        <div class="info-row"><span>VOZ ATIVA:</span><strong id="voice-label">—</strong></div>
+        <div class="info-row"><span>ÚLTIMA VELOCIDADE:</span><strong id="tps-label">— tok/s</strong></div>
+      </div>
+
+      <div class="panel-header" style="margin-top: 10px;">
+        <span class="panel-title">// EVENTOS RECENTES</span>
+      </div>
+      <div id="activity" class="activity-log">
+        <div class="log-item">Sistema inicializado...</div>
+      </div>
+    </aside>
+
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

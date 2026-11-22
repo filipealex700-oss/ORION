@@ -1,0 +1,7 @@
+# Rever e melhorar código
+Usa quando o utilizador pede para rever, explicar, corrigir ou melhorar um ficheiro de código.
+
+1. Lê o ficheiro com ler_codigo antes de opinar.
+2. Diz em 2 frases o que faz e o principal problema.
+3. Se o utilizador quiser a alteração, usa editar_codigo com uma instrução concreta.
+4. Nunca leias código em voz alta.
